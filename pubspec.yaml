@@ -12,7 +12,11 @@ environment:
 
 dependencies:
   open_iconic_flutter: ">=0.3.0 <0.4.0"
-  video_player: any
+  video_player:
+    git:
+      url: git@github.com:sc4v3ng3r/flutter-plugins.git
+      ref: eedec50bbc65374ed322c38ae729bc6f306f1a71
+      path: packages/video_player
   wakelock: ">=0.1.2 <0.2.0"
 
   flutter:
